@@ -119,6 +119,10 @@ const projects = [
   },
 ];
 
+export function generateStaticParams() {
+  return projects.map((project) => ({ id: project.slug }));
+}
+
 export default async function ProjectDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const project = projects.find((p) => p.slug === id);
