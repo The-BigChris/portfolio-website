@@ -53,7 +53,7 @@ export function HeroSection() {
             <div className="relative">
               <div className="w-56 h-56 xs:w-72 xs:h-72 sm:w-80 sm:h-80 md:w-[22rem] md:h-[22rem] lg:w-[28rem] lg:h-[28rem] rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-amber-100 to-orange-100">
                 <img
-                  src="/IMG_0237.JPG"
+                  src="/IMG_0237.webp"
                   alt="Professional headshot"
                   className="w-full h-full object-cover object-top"
                 />

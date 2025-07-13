@@ -8,7 +8,7 @@ export function TestimonialsSection() {
       name: "Jessica Olotu",
       role: "Product Manager & Colleague.",
       company: "",
-      image: "/JessicaOlotu.jpg",
+      image: "/JessicaOlotu.webp",
       content:
         "Chris is an excellent Product Manager with strong leadership qualities and a clear ability to deliver under pressure. We worked together as team leads, and what stood out most was his dedication, problem-solving approach, and consistent drive to get things done the right way. He's a valuable asset to any team or product environmen",
       rating: 5,
@@ -18,7 +18,7 @@ export function TestimonialsSection() {
       name: "Victor Bassey",
       role: "Founder & Lead Developer",
       company: "Xyntera Consulting.",
-      image: "/Vic.jpg",
+      image: "/Vic.webp",
       content:
         "I had the privilege of working alongside Chris on over five technical projects, and each time, his leadership stood out. He approaches every project as if it's his own business, always shifting our mindset from working to meet the deadline to working to provide value.",
       rating: 5,
@@ -28,7 +28,7 @@ export function TestimonialsSection() {
       name: "Sally Asemota",
       role: "Product Manager & Colleague.",
       company: "",
-      image: "Sally.jpg",
+      image: "Sally.webp",
       content:
         "Chris fostered a culture of open communication and collaboration, empowering each team member to contribute meaningfully while driving the product vision forward. Under his leadership, we successfully delivered key product milestones, including several feature rollouts that directly improved user engagement and platform performance.",
       rating: 5,
@@ -38,7 +38,7 @@ export function TestimonialsSection() {
       name: "Ikhajiagbe Grace",
       role: "Project Manager & Colleague.",
       company: "",
-      image: "grace.jpg",
+      image: "grace.webp",
       content:
         "Chris has a unique talent for managing complex product decisions without losing focus on team morale and long-term goals. A reliable professional who always delivers",
       rating: 5,
@@ -48,11 +48,11 @@ export function TestimonialsSection() {
       name: "Reuben Edosa",
       role: "Product Manager & Colleague.",
       company: "",
-      image: "Reuben.jpg",
+      image: "Reuben.webp",
       content:
         "",
       rating: 5,
-      screenshot: "ScreenshotReview1.jpg",
+      screenshot: "ScreenshotReview1.webp",
     },
     {
       name: "Joey",
@@ -62,7 +62,7 @@ export function TestimonialsSection() {
       content:
         "",
       rating: 5,
-      screenshot: "ScreenshotReview2.jpg",
+      screenshot: "ScreenshotReview2.webp",
     },
   ]
 

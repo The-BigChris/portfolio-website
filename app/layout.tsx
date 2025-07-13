@@ -7,8 +7,8 @@ export const metadata: Metadata = {
   description: "Technical Projcet Manager",
   icons: {
     icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
+    shortcut: "/favicon-16x16.webp",
+    apple: "/apple-touch-icon.webp",
   },
   openGraph: {
     title: "Chiemelie Okafor",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: "Chiemelie Okafor",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og-image.webp",
         width: 1200,
         height: 630,
         alt: "Chiemelie Okafor Portfolio",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Chiemelie Okafor",
     description: "Technical Projcet Manager",
-    images: ["/og-image.png"],
+    images: ["/og-image.webp"],
   },
 };
 

@@ -11,7 +11,7 @@ export function CertificationsSection() {
       link: "https://www.credly.com/badges/d52d6abe-f826-42d6-8f18-afd57413ea9c/linked_in_profile",
       description:
         "Learned how to implement automation into workflows for improved outcomes.",
-      image: "PracticalApplicationofGenerativeAIforProjectManagers.jpg", // Certificate image
+      image: "PracticalApplicationofGenerativeAIforProjectManagers.webp", // Certificate image
     },
     {
       title: "Generative AI Overview for Project Managers",
@@ -21,7 +21,7 @@ export function CertificationsSection() {
       link: "https://www.credly.com/badges/24f59ee4-a273-4466-a51c-236d07f87521/linked_in_profile",
       description:
         "Covered the integration of generative AI into projects to enhance productivity.",
-      image: "GenerativeAIOverviewforProjectManagers.jpg",
+      image: "GenerativeAIOverviewforProjectManagers.webp",
     },
     {
       title: "Project Management Professional Exam Prep. Course",
@@ -31,7 +31,7 @@ export function CertificationsSection() {
       //link: "",
       description:
         "A preparation course for the PMP exam, covering the PMBOK, Traditional, Agile, and Hybrid approaches to project management.",
-      image: "PMPExamPrepCourse.jpg",
+      image: "PMPExamPrepCourse.webp",
     },
     {
       title: "Agile Project Management",
@@ -41,7 +41,7 @@ export function CertificationsSection() {
       link: "https://www.coursera.org/account/accomplishments/verify/Y4KECUNWFQ39",
       description:
         "Covered the Agile PM approach, pillars of Scrum, and how to lead an Agile team.",
-      image: "AgilePM.jpg",
+      image: "AgilePM.webp",
     },
     // {
     //   title: "Lean Six Sigma Green Belt",

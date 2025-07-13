@@ -13,7 +13,7 @@ export function WorkSection() {
       description: "A POS management system for business owners.",
       duration: "March 2025 - May 2025",
       technologies: ["Agile", "Figma", "Slack", "Linear", "Google Workspace"],
-      image: "/pos-padi-1.jpg",
+      image: "/pos-padi-1.webp",
     },
     {
       id: "TaskRival",
@@ -23,7 +23,7 @@ export function WorkSection() {
       description: "A personal productivity tracking tool that helps users to create and track tasks, and rewards them for completing them.",
       duration: "June 2025",
       technologies: ["React", "Next.js", "Supabase", "Agile", "Generative AI Tools", "v0", "openAI API"],
-      image: "/TaskRival.jpg",
+      image: "/TaskRival.webp",
     },
     {
       id: "Pawndex",
@@ -33,7 +33,7 @@ export function WorkSection() {
       description: "A blockchain solution that allows users to trade memecoins with paper funds, to gain knowledge and experience before trading with real funds.",
       duration: "July 2025",
       technologies: ["Low-code development", "Vercel", "Figma", "AI/LLM Integration", "Dexscerener API"],
-      image: "/Tradesimulator.jpg",
+      image: "/Tradesimulator.webp",
     },
     {
       id: "Pawndora",
@@ -43,7 +43,7 @@ export function WorkSection() {
       description: "A blockchain project featuring token deployment and development of the project's website..",
       duration: "Dec 2024 - Jan 2025",
       technologies: ["Web3", "OpenAI API", "Notion", "Agile", "G-Suite", "Figma", "Generative AI Tools"],
-      image: "/pawndora.jpg",
+      image: "/pawndora.webp",
     },
     {
       id: "PRD: FlashCare App",
@@ -53,7 +53,7 @@ export function WorkSection() {
       description: "PRD for a telemedicine app for rural communities to access healthcare services and quick response to emergencies digitally.",
       duration: "April 2025",
       technologies: ["Google Docs", "Competitor Research and Analysis"],
-      image: "/Flashcare.jpg",
+      image: "/Flashcare.webp",
     },
     {
       id: "StepGain",
@@ -63,7 +63,7 @@ export function WorkSection() {
       description: "A fitness tracking mobile app design that traacks users' daily steps and rewards them for staying active.",
       duration: "2022 - 2023",
       technologies: ["Asana", "Figma", "Google Maps API", "G-Suite", "Agile"],
-      image: "/stepgain.jpg",
+      image: "/stepgain.webp",
     },
   ]
 

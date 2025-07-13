@@ -96,7 +96,7 @@ export default function AboutPage() {
             <div className="flex flex-col lg:flex-row gap-12 items-center">
               <div className="flex-shrink-0 flex justify-center lg:justify-start items-center pt-8 lg:pt-0">
                 <img
-                  src="IMG_0236.jpg"
+                  src="IMG_0236.webp"
                   alt="Professional headshot"
                   className="w-[350px] md:w-[400px] lg:w-[500px] h-auto max-h-[600px] object-cover mx-auto rounded-2xl shadow-2xl bg-gradient-to-br from-amber-100 to-orange-100"
                 />
