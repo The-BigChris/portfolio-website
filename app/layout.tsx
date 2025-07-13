@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://chiemelieokafor.com'),
-  title: "Chiemelie Okafor - Technical Project Manager & Product Strategist",
+  title: "Chiemelie Okafor - Technical Project Manager| Digital Product Manager| Agile Practitioner.",
   description: "Experienced Technical Project Manager specializing in Agile methodologies, product strategy, and digital transformation. View my portfolio of successful projects and leadership experience.",
   keywords: ["Technical Project Manager", "Product Strategy", "Agile", "Digital Transformation", "Portfolio", "Project Management", "Product Management"],
   authors: [{ name: "Chiemelie Okafor" }],
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.webp",
   },
   openGraph: {
-    title: "Chiemelie Okafor - Technical Project Manager & Product Strategist",
+    title: "Chiemelie Okafor - Technical Project Manager| Digital Product Manager| Agile Practitioner.",
     description: "Experienced Technical Project Manager specializing in Agile methodologies, product strategy, and digital transformation. View my portfolio of successful projects and leadership experience.",
     url: "https://chiemelieokafor.com",
     siteName: "Chiemelie Okafor Portfolio",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Chiemelie Okafor - Technical Project Manager & Product Strategist",
+    title: "Chiemelie Okafor - Technical Project Manager| Digital Product Manager| Agile Practitioner.",
     description: "Experienced Technical Project Manager specializing in Agile methodologies, product strategy, and digital transformation. View my portfolio of successful projects and leadership experience.",
     images: ["/og-image.webp"],
   },
