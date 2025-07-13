@@ -118,7 +118,7 @@ export default function ContactPage() {
       <Navbar />
       <main className="pt-16">
         {/* Hero Section */}
-        <section className="py-20 bg-gradient-to-br from-amber-50 to-orange-50">
+        <section className="py-20 bg-gray-100 md:bg-gradient-to-br md:from-amber-50 md:to-orange-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-black mb-6 font-serif">Get In Touch</h1>
             <p className="text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed">
