@@ -3,18 +3,22 @@ import './globals.css'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://chiemelieokafor.com'),
-  title: "Chiemelie Okafor",
-  description: "Technical Projcet Manager",
+  title: "Chiemelie Okafor - Technical Project Manager & Product Strategist",
+  description: "Experienced Technical Project Manager specializing in Agile methodologies, product strategy, and digital transformation. View my portfolio of successful projects and leadership experience.",
+  keywords: ["Technical Project Manager", "Product Strategy", "Agile", "Digital Transformation", "Portfolio", "Project Management", "Product Management"],
+  authors: [{ name: "Chiemelie Okafor" }],
+  creator: "Chiemelie Okafor",
+  publisher: "Chiemelie Okafor",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-16x16.webp",
     apple: "/apple-touch-icon.webp",
   },
   openGraph: {
-    title: "Chiemelie Okafor",
-    description: "Technical Projcet Manager",
+    title: "Chiemelie Okafor - Technical Project Manager & Product Strategist",
+    description: "Experienced Technical Project Manager specializing in Agile methodologies, product strategy, and digital transformation. View my portfolio of successful projects and leadership experience.",
     url: "https://chiemelieokafor.com",
-    siteName: "Chiemelie Okafor",
+    siteName: "Chiemelie Okafor Portfolio",
     images: [
       {
         url: "/og-image.webp",
@@ -27,8 +31,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Chiemelie Okafor",
-    description: "Technical Projcet Manager",
+    title: "Chiemelie Okafor - Technical Project Manager & Product Strategist",
+    description: "Experienced Technical Project Manager specializing in Agile methodologies, product strategy, and digital transformation. View my portfolio of successful projects and leadership experience.",
     images: ["/og-image.webp"],
   },
 };
