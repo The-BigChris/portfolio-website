@@ -79,7 +79,7 @@ export default function AboutPage() {
       <Navbar />
       <main className="pt-16">
         {/* Hero Section */}
-        <section className="py-20 bg-gray-100 md:bg-gradient-to-br md:from-amber-50 md:to-orange-50">
+        <section className="py-20 bg-gray-100 md:bg-gradient-to-br md:from-amber-50 md:to-orange-50" data-mobile-grey="true">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-2xl md:text-3xl font-bold text-black mb-6">I am Chiemelie Christian Okafor,</h1>
             <p className="text-xl text-gray-900 max-w-3xl mx-auto">
