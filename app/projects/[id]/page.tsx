@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { Metadata } from "next";
 
 const projects = [
   {
@@ -121,6 +122,28 @@ const projects = [
 
 export function generateStaticParams() {
   return projects.map((project) => ({ id: project.slug }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params;
+  const project = projects.find((p) => p.slug === id);
+  
+  if (!project) {
+    return {
+      title: "Project Not Found | Chiemelie Okafor",
+      description: "The requested project could not be found.",
+    };
+  }
+
+  return {
+    title: `${project.title} | Chiemelie Okafor - ${project.role}`,
+    description: project.description,
+    openGraph: {
+      title: `${project.title} | Chiemelie Okafor`,
+      description: project.description,
+      images: project.images.length > 0 ? [{ url: project.images[0], width: 1200, height: 630, alt: project.title }] : [],
+    },
+  };
 }
 
 export default async function ProjectDetailPage({ params }: { params: Promise<{ id: string }> }) {
@@ -280,20 +303,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
               </ul>
             </section>
 
-            {/* Case Studies Section */}
-            {project.caseStudies && project.caseStudies.length > 0 && (
-              <section>
-                <h2 className="text-2xl font-bold text-black mb-6 font-serif">Case Studies</h2>
-                <div className="space-y-4">
-                  {project.caseStudies.map((cs, idx) => (
-                    <div key={idx} className="bg-amber-50 p-6 rounded-lg border-l-4 border-amber-500">
-                      <h3 className="text-lg font-semibold text-black mb-2">{cs.title}</h3>
-                      <p className="text-slate-800">{cs.content}</p>
-                    </div>
-                  ))}
-                </div>
-              </section>
-            )}
+
 
             {/* Links Section */}
             {project.Links && project.Links.length > 0 && (

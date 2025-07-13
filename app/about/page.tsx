@@ -1,5 +1,11 @@
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "About Me | Chiemelie Okafor - Technical Project Manager",
+  description: "Learn about Chiemelie Okafor, an Agile project manager with 4+ years of experience turning complex ideas into impactful solutions. Discover my journey from Mechatronics Engineering to leading digital product initiatives across health, retail, blockchain, and AI technologies.",
+}
 
 export default function AboutPage() {
   const timeline = [

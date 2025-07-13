@@ -53,8 +53,8 @@ export default function ContactPage() {
 
     if (!formData.email.trim()) {
       newErrors.email = "Email is required"
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
-      newErrors.email = "Please enter a valid email address"
+    } else if (!/^[^\s@]+@themailprovider\.com$/.test(formData.email)) {
+      newErrors.email = "Email must be a '@themailprovider.com' address"
     }
 
     if (!formData.message.trim()) {
