@@ -10,7 +10,7 @@ export function WorkSection() {
       slug: "pos-padi",
       role: "Product Manager",
       title: "POS-Padi.",
-      description: "A POS management system for business owners.",
+      description: "A POS management tool for POS agents and business owners.",
       duration: "March 2025 - May 2025",
       technologies: ["Agile", "Figma", "Slack", "Linear", "Google Workspace"],
       image: "/pos-padi-1.webp",
