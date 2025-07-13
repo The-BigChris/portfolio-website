@@ -135,7 +135,7 @@ export default function ContactPage() {
             <div className="grid lg:grid-cols-2 gap-12">
               {/* Contact Form */}
               <Card className="shadow-lg border-0">
-                <CardHeader className="bg-amber-50 rounded-t-lg">
+                <CardHeader className="bg-gray-100 md:bg-amber-50 rounded-t-lg">
                   <CardTitle className="text-2xl font-serif text-black">Send Me a Message</CardTitle>
                   <p className="text-slate-700">
                     Fill out the form below and I'll get back to you within 24 hours.
@@ -285,7 +285,7 @@ export default function ContactPage() {
               {/* Contact Information */}
               <div className="space-y-8">
                 <Card className="shadow-lg border-0">
-                  <CardHeader className="bg-amber-50 rounded-t-lg">
+                  <CardHeader className="bg-gray-100 md:bg-amber-50 rounded-t-lg">
                     <CardTitle className="text-2xl font-serif text-black">Contact Information</CardTitle>
                     <p className="text-slate-700">
                       I'm always excited to discuss new opportunities and challenges.
@@ -341,7 +341,7 @@ export default function ContactPage() {
                 </Card>
 
                 <Card className="shadow-lg border-0">
-                  <CardHeader className="bg-amber-50 rounded-t-lg">
+                  <CardHeader className="bg-gray-100 md:bg-amber-50 rounded-t-lg">
                     <CardTitle className="text-2xl font-serif text-black">Why Work With Me?</CardTitle>
                   </CardHeader>
                   <CardContent className="p-8 space-y-4">
@@ -403,8 +403,8 @@ export default function ContactPage() {
                 </Card>
 
                 <Card className="shadow-lg border-0">
-                  <CardHeader className="bg-amber-50 rounded-t-lg">
-                    <CardTitle className="text-2xl font-serif text-black">Availability</CardTitle>
+                                  <CardHeader className="bg-gray-100 md:bg-amber-50 rounded-t-lg">
+                  <CardTitle className="text-2xl font-serif text-black">Availability</CardTitle>
                   </CardHeader>
                   <CardContent className="p-8">
                     <p className="text-slate-700 mb-6 leading-relaxed">
