@@ -137,12 +137,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 
   return {
     title: `${project.title} | Chiemelie Okafor - ${project.role}`,
-    description: project.description,
-    openGraph: {
-      title: `${project.title} | Chiemelie Okafor`,
-      description: project.description,
-      images: project.images.length > 0 ? [{ url: project.images[0], width: 1200, height: 630, alt: project.title }] : [],
-    },
+    description: `${project.description} ${project.overview.substring(0, 150)}...`,
   };
 }
 

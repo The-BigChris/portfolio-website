@@ -3,7 +3,7 @@ module.exports = {
   siteUrl: process.env.SITE_URL || 'https://chiemelieokafor.com',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
-  exclude: ['/404'],
+  exclude: ['/server-sitemap.xml'],
   robotsTxtOptions: {
     policies: [
       {
