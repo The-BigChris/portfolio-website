@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Users, Target, BarChart3, Settings, Shield, Zap } from "lucide-react"
+import { Users, Target, Settings, Shield, Zap, BrainCircuit } from "lucide-react"
 
 export function SkillsSection() {
   const skillCategories = [
@@ -12,10 +12,8 @@ export function SkillsSection() {
         "Project Planning & Scheduling", "Risk Management",
         "Sprint Planning & Execution", "Workflow Management",
         "Backlog Management", 
-        
         "Time, Scope & Budget Management",
         "AI-Enhanced Development", "User Story Writing", 
-
       ],
     },
     {
@@ -30,18 +28,6 @@ export function SkillsSection() {
         "Negotiation", 
         "Effective Communication",
         "Emotional Intelligence",
-      ],
-    },
-    {
-      title: "Analytics & Strategy",
-      icon: BarChart3,
-      skills: [
-        "Project Planning and Execution", "Prompt Engineering", 
-        "KPI Tracking",
-        "Business Intelligence",
-        "Market Research",
-        "Strategic Planning",
-        //
       ],
     },
     {
@@ -76,6 +62,17 @@ export function SkillsSection() {
         "Documentation",
         "Best Practices",
         "Standards Implementation",
+      ],
+    },
+    {
+      title: "Additional Capabilities",
+      icon: BrainCircuit,
+      skills: [
+        "Project Planning and Execution", "Prompt Engineering", 
+        "KPI Tracking",
+        "Business Intelligence",
+        "Market Research",
+        "Strategic Planning",
       ],
     },
   ]
