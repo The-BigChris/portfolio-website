@@ -68,11 +68,10 @@ export function SkillsSection() {
       title: "Additional Capabilities",
       icon: BrainCircuit,
       skills: [
-        "Project Planning and Execution", "Prompt Engineering", 
-        "KPI Tracking",
-        "Business Intelligence",
-        "Market Research",
-        "Strategic Planning",
+        "Techical Writing", 
+        "Userflow & Rapid Prototyping", 
+        "Low-code Development", 
+        "Simple (responsive) Website Design",
       ],
     },
   ]

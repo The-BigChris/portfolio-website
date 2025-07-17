@@ -55,7 +55,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/#work" className="hover:text-oxblood-700 transition-colors bg-transparent text-black font-serif">
-                  Work
+                  Work/Projects
                 </Link>
               </li>
               <li>

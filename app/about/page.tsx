@@ -81,7 +81,7 @@ export default function AboutPage() {
         {/* Hero Section */}
         <section className="py-20 bg-gray-100 md:bg-gradient-to-br md:from-oxblood-50 md:to-white" data-mobile-grey="true">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-2xl md:text-3xl font-bold text-black mb-6">I am Chiemelie Christian Okafor,</h1>
+            <h1 className="text-2xl md:text-3xl font-bold text-black mb-6">I am Christian Chiemelie Okafor,</h1>
             <p className="text-xl text-gray-900 max-w-3xl mx-auto">
             An Agile project manager with 4+ years of experience turning complex ideas into impactful
             solutions through teamwork, adaptive planning, and results-driven execution.

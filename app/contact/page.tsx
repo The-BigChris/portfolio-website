@@ -412,13 +412,13 @@ export default function ContactPage() {
                       please mention it in your message and I'll prioritize your inquiry.
                     </p>
                     <div className="space-y-3">
-                      <div className="flex justify-between items-center p-3 bg-oxblood-50 rounded-lg">
+                      <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
                         <span className="font-medium text-black">Project Consultation</span>
-                        <span className="text-oxblood-600 font-semibold">Available</span>
+                        <span className="text-green-600 font-semibold">Available</span>
                       </div>
-                                             <div className="flex justify-between items-center p-3 bg-oxblood-50 rounded-lg">
+                                             <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
                          <span className="font-medium text-black">Contract Projects</span>
-                         <span className="text-oxblood-600 font-semibold">Available</span>
+                         <span className="text-green-600 font-semibold">Available</span>
                        </div>
                       <div className="flex justify-between items-center p-3 bg-yellow-50 rounded-lg">
                         <span className="font-medium text-black">Full-time Projects</span>
