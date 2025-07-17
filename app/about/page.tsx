@@ -79,7 +79,7 @@ export default function AboutPage() {
       <Navbar />
       <main className="pt-16">
         {/* Hero Section */}
-        <section className="py-20 bg-gray-100 md:bg-gradient-to-br md:from-amber-50 md:to-orange-50" data-mobile-grey="true">
+        <section className="py-20 bg-gray-100 md:bg-gradient-to-br md:from-oxblood-50 md:to-white" data-mobile-grey="true">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-2xl md:text-3xl font-bold text-black mb-6">I am Chiemelie Christian Okafor,</h1>
             <p className="text-xl text-gray-900 max-w-3xl mx-auto">
@@ -98,7 +98,7 @@ export default function AboutPage() {
                 <img
                   src="IMG_0236.webp"
                   alt="Professional headshot"
-                  className="w-[350px] md:w-[400px] lg:w-[500px] h-auto max-h-[600px] object-cover mx-auto rounded-2xl shadow-2xl bg-gradient-to-br from-amber-100 to-orange-100"
+                  className="w-[350px] md:w-[400px] lg:w-[500px] h-auto max-h-[600px] object-cover mx-auto rounded-2xl shadow-2xl bg-gradient-to-br from-oxblood-100 to-oxblood-100"
                 />
               </div>
               <div className="flex flex-col justify-start h-full space-y-6 text-black">

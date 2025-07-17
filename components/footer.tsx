@@ -14,23 +14,23 @@ export function Footer() {
             <div className="flex space-x-4 text-black">
               <a
                 href="mailto:ok.christianc@gmail.com"
-                className="text-muted-foreground hover:text-amber-800 transition-colors"
+                className="text-muted-foreground hover:text-oxblood-700 transition-colors"
               >
-                <Mail className="h-5 w-5 bg-amber-800" />
+                <Mail className="h-5 w-5 bg-oxblood-700" />
               </a>
               <a
                 href="https://www.linkedin.com/in/chiemelieokafor"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-amber-800 transition-colors"
+                className="text-muted-foreground hover:text-oxblood-700 transition-colors"
               >
-                <Linkedin className="h-5 w-5 text-amber-800" />
+                <Linkedin className="h-5 w-5 text-oxblood-700" />
               </a>
               <a
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-amber-800 transition-colors"
+                className="text-muted-foreground hover:text-oxblood-700 transition-colors"
               >
                 
               </a>
@@ -38,7 +38,7 @@ export function Footer() {
                 href="https://github.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-amber-800 transition-colors"
+                className="text-muted-foreground hover:text-oxblood-700 transition-colors"
               >
                 
               </a>
@@ -49,22 +49,22 @@ export function Footer() {
             <h4 className="font-semibold mb-4 text-black font-serif">Quick Links</h4>
             <ul className="space-y-2 text-black">
               <li>
-                <Link href="/about" className="hover:text-amber-800 transition-colors text-black font-serif">
+                <Link href="/about" className="hover:text-oxblood-700 transition-colors text-black font-serif">
                   About Me
                 </Link>
               </li>
               <li>
-                <Link href="/#work" className="hover:text-amber-800 transition-colors bg-transparent text-black font-serif">
+                <Link href="/#work" className="hover:text-oxblood-700 transition-colors bg-transparent text-black font-serif">
                   Work
                 </Link>
               </li>
               <li>
-                <Link href="/#skills" className="hover:text-amber-800 transition-colors text-black font-serif">
+                <Link href="/#skills" className="hover:text-oxblood-700 transition-colors text-black font-serif">
                   Skills
                 </Link>
               </li>
               <li className="font-serif">
-                <Link href="/contact" className="hover:text-amber-800 transition-colors text-black">
+                <Link href="/contact" className="hover:text-oxblood-700 transition-colors text-black">
                   Contact Me
                 </Link>
               </li>

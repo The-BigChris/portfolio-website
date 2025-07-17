@@ -81,7 +81,7 @@ export function WorkSection() {
           {projects.map((project) => (
             <Link key={project.slug} href={`/projects/${project.slug}`}>
               <Card className="h-full hover:shadow-lg transition-shadow cursor-pointer group">
-                <div className="aspect-video bg-[#f5eee6] md:bg-amber-100 rounded-t-lg overflow-hidden flex items-center justify-center">
+                <div className="aspect-video bg-gray-100 md:bg-oxblood-100 rounded-t-lg overflow-hidden flex items-center justify-center">
                   {project.image ? (
                   <img
                       src={project.image}
@@ -97,9 +97,9 @@ export function WorkSection() {
                   )}
                 </div>
                 <CardHeader>
-                  <CardTitle className="group-hover:text-amber-800 transition-colors text-black font-serif">{project.title}</CardTitle>
+                  <CardTitle className="group-hover:text-oxblood-700 transition-colors text-black font-serif">{project.title}</CardTitle>
                   {project.role && (
-                    <div className="text-sm text-amber-800 font-serif font-semibold mb-1">{project.role}</div>
+                    <div className="text-sm text-oxblood-700 font-serif font-semibold mb-1">{project.role}</div>
                   )}
                 </CardHeader>
                 <CardContent>

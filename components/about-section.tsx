@@ -12,7 +12,7 @@ export function AboutSection() {
   ]
 
   return (
-    <section id="about" className="py-20 bg-gray-100 md:bg-amber-50">
+    <section id="about" className="py-20 bg-gray-100 md:bg-oxblood-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-16 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-black font-serif mb-5">About Me</h2>
@@ -21,15 +21,15 @@ export function AboutSection() {
           A Project Manager obsessed with turning ideas into action, driving efficiency, and delivering impactful results.
           </p>
           <Link href="/about">
-            <Button className="bg-amber-800 hover:bg-amber-900 text-white font-serif mx-auto">Learn More About Me</Button>
+            <Button className="bg-oxblood-600 hover:bg-oxblood-700 text-white font-serif mx-auto">Learn More About Me</Button>
           </Link>
         </div>
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
           {stats.map((stat, index) => (
-            <Card key={index} className="bg-white border-amber-200">
+            <Card key={index} className="bg-white border-oxblood-200">
               <CardContent className="p-6 text-center">
-                <stat.icon className="h-8 w-8 mx-auto mb-4 text-amber-800 font-serif" />
+                <stat.icon className="h-8 w-8 mx-auto mb-4 text-oxblood-700 font-serif" />
                 <div className="text-2xl font-bold text-black mb-2 font-serif">{stat.value}</div>
                 <div className="text-sm text-gray-800 font-serif">{stat.label}</div>
               </CardContent>

@@ -151,12 +151,12 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
       <Navbar />
       <main className="flex-1 pt-16">
         {/* Project Summary Bar */}
-        <div className="w-full bg-gray-100 md:bg-amber-50 border-b border-gray-200 md:border-amber-200 py-6 px-4 md:px-12 flex flex-col md:flex-row md:items-center md:justify-between gap-4 shadow-sm">
+        <div className="w-full bg-gray-100 md:bg-oxblood-50 border-b border-gray-200 md:border-oxblood-200 py-6 px-4 md:px-12 flex flex-col md:flex-row md:items-center md:justify-between gap-4 shadow-sm">
           <div className="flex-1">
             <h1 className="text-2xl md:text-3xl font-bold text-black font-serif mb-1">{project.title}</h1>
             <p className="text-md text-slate-700 font-serif mb-1">{project.description}</p>
           </div>
-          <div className="flex items-center text-md text-amber-800 font-serif font-semibold">
+          <div className="flex items-center text-md text-oxblood-700 font-serif font-semibold">
             <Calendar className="h-5 w-5 mr-2" />
             {project.duration}
           </div>
@@ -306,13 +306,13 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
                 <h2 className="text-2xl font-bold text-black mb-6 font-serif">Resources</h2>
                 <div className="space-y-4">
                   {project.Links.map((link, idx) => (
-                    <div key={idx} className="bg-gray-100 md:bg-amber-50 p-6 rounded-lg border-l-4 border-gray-400 md:border-amber-500">
+                    <div key={idx} className="bg-gray-100 md:bg-oxblood-50 p-6 rounded-lg border-l-4 border-gray-400 md:border-oxblood-600">
                       <h3 className="text-lg font-semibold text-black mb-2">{link.title}</h3>
                       <a 
                         href={link.link} 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-amber-700 hover:text-amber-900 underline font-medium"
+                        className="text-oxblood-700 hover:text-oxblood-900 underline font-medium"
                       >
                         {link.content}
                       </a>

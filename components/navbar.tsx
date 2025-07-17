@@ -30,13 +30,13 @@ export function Navbar() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="hover:text-amber-800 transition-colors text-black font-semibold font-serif"
+                className="hover:text-oxblood-700 transition-colors text-black font-semibold font-serif"
               >
                 {item.name}
               </Link>
             ))}
             <Link href="/contact">
-              <Button className="bg-amber-800 hover:bg-black hover:text-white font-serif">Contact Me</Button>
+              <Button className="bg-oxblood-600 hover:bg-oxblood-700 text-white font-serif">Contact Me</Button>
             </Link>
           </div>
 
@@ -53,14 +53,14 @@ export function Navbar() {
                   <Link
                     key={item.name}
                     href={item.href}
-                    className="text-lg text-black hover:text-amber-800 transition-colors font-serif"
+                    className="text-lg text-black hover:text-oxblood-700 transition-colors font-serif"
                     onClick={() => setIsOpen(false)}
                   >
                     {item.name}
                   </Link>
                 ))}
                 <Link href="/contact" onClick={() => setIsOpen(false)}>
-                  <Button className="w-full bg-amber-800 text-white hover:bg-amber-900 font-serif">Contact Me</Button>
+                  <Button className="w-full bg-oxblood-600 text-white hover:bg-oxblood-700 font-serif">Contact Me</Button>
                 </Link>
               </div>
             </SheetContent>

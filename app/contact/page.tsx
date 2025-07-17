@@ -118,7 +118,7 @@ export default function ContactPage() {
       <Navbar />
       <main className="pt-16">
         {/* Hero Section */}
-        <section className="py-20 bg-gray-100 md:bg-gradient-to-br md:from-amber-50 md:to-orange-50">
+        <section className="py-20 bg-gray-100 md:bg-gradient-to-br md:from-oxblood-50 md:to-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-black mb-6 font-serif">Get In Touch</h1>
             <p className="text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed">
@@ -135,7 +135,7 @@ export default function ContactPage() {
             <div className="grid lg:grid-cols-2 gap-12">
               {/* Contact Form */}
               <Card className="shadow-lg border-0">
-                <CardHeader className="bg-gray-100 md:bg-amber-50 rounded-t-lg">
+                <CardHeader className="bg-gray-100 md:bg-oxblood-50 rounded-t-lg">
                   <CardTitle className="text-2xl font-serif text-black">Send Me a Message</CardTitle>
                   <p className="text-slate-700">
                     Fill out the form below and I'll get back to you within 24 hours.
@@ -152,7 +152,7 @@ export default function ContactPage() {
                           id="firstName"
                           value={formData.firstName}
                           onChange={(e) => handleChange("firstName", e.target.value)}
-                          className={`mt-2 border-gray-300 focus:border-amber-500 focus:ring-amber-500 text-black placeholder-black ${
+                          className={`mt-2 border-gray-300 focus:border-oxblood-600 focus:ring-oxblood-600 text-black placeholder-black ${
                             errors.firstName ? "border-red-500 focus:border-red-500 focus:ring-red-500" : ""
                           }`}
                           placeholder="Enter your first name"
@@ -172,7 +172,7 @@ export default function ContactPage() {
                           id="lastName"
                           value={formData.lastName}
                           onChange={(e) => handleChange("lastName", e.target.value)}
-                          className={`mt-2 border-gray-300 focus:border-amber-500 focus:ring-amber-500 text-black placeholder-black ${
+                          className={`mt-2 border-gray-300 focus:border-oxblood-600 focus:ring-oxblood-600 text-black placeholder-black ${
                             errors.lastName ? "border-red-500 focus:border-red-500 focus:ring-red-500" : ""
                           }`}
                           placeholder="Enter your last name"
@@ -195,7 +195,7 @@ export default function ContactPage() {
                         type="email"
                         value={formData.email}
                         onChange={(e) => handleChange("email", e.target.value)}
-                        className={`mt-2 border-gray-300 focus:border-amber-500 focus:ring-amber-500 text-black placeholder-black ${
+                        className={`mt-2 border-gray-300 focus:border-oxblood-600 focus:ring-oxblood-600 text-black placeholder-black ${
                           errors.email ? "border-red-500 focus:border-red-500 focus:ring-red-500" : ""
                         }`}
                         placeholder="Enter your email address"
@@ -218,7 +218,7 @@ export default function ContactPage() {
                         value={formData.message}
                         onChange={(e) => handleChange("message", e.target.value)}
                         rows={6}
-                        className={`mt-2 border-gray-300 focus:border-amber-500 focus:ring-amber-500 resize-none text-black placeholder-black ${
+                        className={`mt-2 border-gray-300 focus:border-oxblood-600 focus:ring-oxblood-600 resize-none text-black placeholder-black ${
                           errors.message ? "border-red-500 focus:border-red-500 focus:ring-red-500" : ""
                         }`}
                       />
@@ -256,7 +256,7 @@ export default function ContactPage() {
 
                     <Button 
                       type="submit" 
-                      className="w-full bg-amber-600 hover:bg-amber-700 text-white font-medium py-3 text-lg disabled:opacity-50 disabled:cursor-not-allowed" 
+                      className="w-full bg-oxblood-600 hover:bg-oxblood-700 text-white font-medium py-3 text-lg disabled:opacity-50 disabled:cursor-not-allowed" 
                       disabled={isSubmitting}
                     >
                       {isSubmitting ? (
@@ -285,7 +285,7 @@ export default function ContactPage() {
               {/* Contact Information */}
               <div className="space-y-8">
                 <Card className="shadow-lg border-0">
-                  <CardHeader className="bg-gray-100 md:bg-amber-50 rounded-t-lg">
+                  <CardHeader className="bg-gray-100 md:bg-oxblood-50 rounded-t-lg">
                     <CardTitle className="text-2xl font-serif text-black">Contact Information</CardTitle>
                     <p className="text-slate-700">
                       I'm always excited to discuss new opportunities and challenges.
@@ -294,19 +294,19 @@ export default function ContactPage() {
                   <CardContent className="p-8 space-y-6">
                     <div className="space-y-3">
                       <div className="flex items-center space-x-4 p-4 bg-white rounded-lg border border-gray-200">
-                        <Mail className="h-6 w-6 text-amber-600" />
+                        <Mail className="h-6 w-6 text-oxblood-600" />
                         <div>
                           <p className="font-semibold text-black">Email Addresses</p>
                           <div className="space-y-1">
                             <a 
                               href="mailto:ok.christianc@gmail.com" 
-                              className="text-slate-700 hover:text-amber-600 transition-colors block"
+                              className="text-slate-700 hover:text-oxblood-600 transition-colors block"
                             >
                               ok.christianc@gmail.com
                             </a>
                             <a 
                               href="mailto:contact@chiemelieokafor.com" 
-                              className="text-slate-700 hover:text-amber-600 transition-colors block"
+                              className="text-slate-700 hover:text-oxblood-600 transition-colors block"
                             >
                               contact@chiemelieokafor.com
                             </a>
@@ -316,14 +316,14 @@ export default function ContactPage() {
                     </div>
                     
                     <div className="flex items-center space-x-4 p-4 bg-white rounded-lg border border-gray-200">
-                      <Linkedin className="h-6 w-6 text-amber-600" />
+                      <Linkedin className="h-6 w-6 text-oxblood-600" />
                       <div>
                         <p className="font-semibold text-black">LinkedIn</p>
                         <a 
                           href="https://linkedin.com/in/chiemelieokafor" 
                           target="_blank" 
                           rel="noopener noreferrer"
-                          className="text-slate-700 hover:text-amber-600 transition-colors"
+                          className="text-slate-700 hover:text-oxblood-600 transition-colors"
                         >
                           Connect on LinkedIn
                         </a>
@@ -331,7 +331,7 @@ export default function ContactPage() {
                     </div>
 
                     <div className="flex items-center space-x-4 p-4 bg-white rounded-lg border border-gray-200">
-                      <MessageSquare className="h-6 w-6 text-amber-600" />
+                      <MessageSquare className="h-6 w-6 text-oxblood-600" />
                       <div>
                         <p className="font-semibold text-black">Response Time</p>
                         <p className="text-slate-700">Within 24 hours</p>
@@ -341,12 +341,12 @@ export default function ContactPage() {
                 </Card>
 
                 <Card className="shadow-lg border-0">
-                  <CardHeader className="bg-gray-100 md:bg-amber-50 rounded-t-lg">
+                  <CardHeader className="bg-gray-100 md:bg-oxblood-50 rounded-t-lg">
                     <CardTitle className="text-2xl font-serif text-black">Why Work With Me?</CardTitle>
                   </CardHeader>
                   <CardContent className="p-8 space-y-4">
                     <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="w-2 h-2 bg-oxblood-600 rounded-full mt-2 flex-shrink-0"></div>
                       <div>
                         <p className="font-semibold text-black">Proven Track Record</p>
                         <p className="text-sm text-slate-700">
@@ -355,7 +355,7 @@ export default function ContactPage() {
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="w-2 h-2 bg-oxblood-600 rounded-full mt-2 flex-shrink-0"></div>
                       <div>
                         <p className="font-semibold text-black">Industry Expertise</p>
                         <p className="text-sm text-slate-700">
@@ -364,7 +364,7 @@ export default function ContactPage() {
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="w-2 h-2 bg-oxblood-600 rounded-full mt-2 flex-shrink-0"></div>
                       <div>
                         <p className="font-semibold text-black">Agile Methodology</p>
                         <p className="text-sm text-slate-700">
@@ -373,7 +373,7 @@ export default function ContactPage() {
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="w-2 h-2 bg-oxblood-600 rounded-full mt-2 flex-shrink-0"></div>
                       <div>
                         <p className="font-semibold text-black">Clear Communication</p>
                         <p className="text-sm text-slate-700">
@@ -382,7 +382,7 @@ export default function ContactPage() {
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="w-2 h-2 bg-oxblood-600 rounded-full mt-2 flex-shrink-0"></div>
                       <div>
                         <p className="font-semibold text-black">Adaptability</p>
                         <p className="text-sm text-slate-700">
@@ -391,7 +391,7 @@ export default function ContactPage() {
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="w-2 h-2 bg-oxblood-600 rounded-full mt-2 flex-shrink-0"></div>
                       <div>
                         <p className="font-semibold text-black">Ownership Mindset</p>
                         <p className="text-sm text-slate-700">
@@ -403,7 +403,7 @@ export default function ContactPage() {
                 </Card>
 
                 <Card className="shadow-lg border-0">
-                                  <CardHeader className="bg-gray-100 md:bg-amber-50 rounded-t-lg">
+                                  <CardHeader className="bg-gray-100 md:bg-oxblood-50 rounded-t-lg">
                   <CardTitle className="text-2xl font-serif text-black">Availability</CardTitle>
                   </CardHeader>
                   <CardContent className="p-8">
@@ -412,13 +412,13 @@ export default function ContactPage() {
                       please mention it in your message and I'll prioritize your inquiry.
                     </p>
                     <div className="space-y-3">
-                      <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
+                      <div className="flex justify-between items-center p-3 bg-oxblood-50 rounded-lg">
                         <span className="font-medium text-black">Project Consultation</span>
-                        <span className="text-green-600 font-semibold">Available</span>
+                        <span className="text-oxblood-600 font-semibold">Available</span>
                       </div>
-                                             <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
+                                             <div className="flex justify-between items-center p-3 bg-oxblood-50 rounded-lg">
                          <span className="font-medium text-black">Contract Projects</span>
-                         <span className="text-green-600 font-semibold">Available</span>
+                         <span className="text-oxblood-600 font-semibold">Available</span>
                        </div>
                       <div className="flex justify-between items-center p-3 bg-yellow-50 rounded-lg">
                         <span className="font-medium text-black">Full-time Projects</span>

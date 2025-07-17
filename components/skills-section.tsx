@@ -95,8 +95,8 @@ export function SkillsSection() {
             <Card key={index} className="h-full bg-white border-slate-200">
               <CardHeader>
                 <div className="flex items-center space-x-3">
-                  <div className="p-2 rounded-lg bg-amber-100">
-                    <category.icon className="h-6 w-6 text-amber-800" />
+                  <div className="p-2 rounded-lg bg-oxblood-100">
+                    <category.icon className="h-6 w-6 text-oxblood-700" />
                   </div>
                   <CardTitle className="text-lg font-serif text-black">{category.title}</CardTitle>
                 </div>

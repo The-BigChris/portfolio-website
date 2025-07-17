@@ -13,6 +13,19 @@ const config: Config = {
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
+  			oxblood: {
+  				50: '#fef2f2',
+          100: '#fee2e2',
+          200: '#fecaca',
+          300: '#fca5a5',
+          400: '#f87171',
+          500: '#b11226', // main oxblood
+          600: '#a10e20',
+          700: '#7c0a16', // deep wine red
+          800: '#5a0710',
+          900: '#3d040a',
+          950: '#210205'
+  			},
   			card: {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'

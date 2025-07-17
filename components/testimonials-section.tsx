@@ -67,7 +67,7 @@ export function TestimonialsSection() {
   ]
 
   return (
-    <section id="testimonials" className="py-20 bg-gray-100 md:bg-amber-50">
+    <section id="testimonials" className="py-20 bg-gray-100d:bg-oxblood-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-4 font-serif">Testimonials</h2>
@@ -79,11 +79,11 @@ export function TestimonialsSection() {
         {/* 2x3 Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className={`bg-white border-amber-200 shadow-lg ${!testimonial.content && !testimonial.name ? 'h-auto' : 'h-full'}`}>
+            <Card key={index} className={`bg-white border-oxblood-200 shadow-lg ${!testimonial.content && !testimonial.name ? 'h-auto' : 'h-full'}`}>
               <CardContent className={`${!testimonial.content && !testimonial.name ? 'p-4 md:p-6' : 'p-4 md:p-6'} text-black`}>
                 {/* Testimonial Screenshot - Only show if screenshot exists */}
                 {testimonial.screenshot && (
-                  <div className={`rounded-lg bg-amber-100 flex justify-center ${testimonial.content ? 'mb-6 overflow-hidden' : 'mb-4'}`}>
+                  <div className={`rounded-lg bg-oxblood-100 flex justify-center ${testimonial.content ? 'mb-6 overflow-hidden' : 'mb-4'}`}>
                   <img
                       src={testimonial.screenshot}
                       alt="Client testimonial"
@@ -95,7 +95,7 @@ export function TestimonialsSection() {
                 {/* Rating - Show for all testimonials */}
                 <div className="flex items-center mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+                    <Star key={i} className="h-4 w-4l-oxblood-600 text-oxblood-600" />
                   ))}
                 </div>
 
@@ -109,7 +109,7 @@ export function TestimonialsSection() {
                 <div className="flex items-center space-x-3">
                   <Avatar>
                     <AvatarImage src={testimonial.image || "/placeholder.svg"} alt={testimonial.name} />
-                    <AvatarFallback className="bg-amber-100 text-amber-800">
+                    <AvatarFallback className="bg-oxblood-100ext-oxblood-700">
                       {testimonial.name
                         .split(" ")
                         .map((n) => n[0])
