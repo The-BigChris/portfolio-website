@@ -31,14 +31,6 @@ export function SkillsSection() {
       ],
     },
     {
-      title: "Tools & Technologies",
-      icon: Settings,
-      skills: ["Jira", "Asana", "Notion",
-         "Slack", "Google Workspace/Suite", 
-         "Microsoft Office", "Figma", 
-         "AI/LLM Platforms", "Cursor AI", "V0", "UX Pilot", ],
-    },
-    {
       title: "Product Management",
       icon: Zap,
       skills: [
@@ -51,6 +43,14 @@ export function SkillsSection() {
         "User Acceptance Testing",
         "Product Vision Communication",
       ],
+    },
+    {
+      title: "Tools & Technologies",
+      icon: Settings,
+      skills: ["Jira", "Asana", "Notion",
+         "Slack", "Google Workspace/Suite", 
+         "Microsoft Office", "Figma", 
+         "AI/LLM Platforms", "Cursor AI", "V0", "UX Pilot", ],
     },
     {
       title: "Quality & Compliance",
