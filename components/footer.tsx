@@ -79,10 +79,11 @@ export function Footer() {
           <div className="text-black">
             <h4 className="font-semibold mb-4 font-serif text-black">Services</h4>
             <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-              <li className="text-black font-serif">Project Management</li>
-              <li className="text-black font-serif">Product Strategy</li>
-              <li className="text-black font-serif">Team Leadership</li>
-              <li className="text-black font-serif">Process Optimization</li>
+              <li className="text-black font-serif font-bold">Project Management</li>
+              <li className="text-black font-serif font-bold">Product Management & Strategy</li>
+              <li className="text-black font-serif font-bold">Digital Project Consulting</li>
+              <li className="text-black font-serif font-bold">Team Leadership & Coordination</li>
+              <li className="text-black font-serif font-bold">Process Optimization</li>
             </ul>
           </div>
         </div>
