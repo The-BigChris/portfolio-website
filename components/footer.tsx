@@ -49,6 +49,11 @@ export function Footer() {
             <h4 className="font-semibold mb-4 text-black font-serif">Quick Links</h4>
             <ul className="space-y-2 text-black">
               <li>
+                <Link href="/" className="hover:text-oxblood-700 transition-colors text-black font-serif">
+                  Home
+                </Link>
+              </li>
+              <li>
                 <Link href="/about" className="hover:text-oxblood-700 transition-colors text-black font-serif">
                   About Me
                 </Link>
