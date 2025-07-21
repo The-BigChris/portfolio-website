@@ -22,9 +22,9 @@ export function SkillsSection() {
         "Strategic Thinking", "Time Management",
         "Adaptability & Flexibility",
         "Conflict Resolution", "Problem Solving",
-        "Negotiation", "Effective Communication",
+        "Negotiation", "Presentation", "Effective Communication",
         "Emotional Intelligence", "Attention to Detail", "People Management",
-        "Critical Thinking", "Presentation", "Learning Agility",
+        "Critical Thinking", "Learning Agility",
       ],
     },
     {
