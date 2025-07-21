@@ -79,7 +79,7 @@ export function SkillsSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 font-serif">Skills & Competencies</h2>
           <p className="text-xl max-w-3xl mx-auto font-serif text-slate-700">
-            My comprehensive toolkit for managing complex projects and leading high-performing teams
+            My comprehensive toolkit for managing complex projects and leading high-performing teams.
           </p>
         </div>
 
